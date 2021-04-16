@@ -1,0 +1,62 @@
+
+        @media only screen and (max-width: 725px) {
+            .no_disp{
+                display: none;
+            }
+            
+           .disp{
+               display: flex;
+               justify-content: center;
+               width: 30%;   
+           }
+ 
+           nav{
+             position: fixed;
+             top: 0px;
+             width: 97%;
+             background-color:gray;
+             overflow: auto;
+             
+           }
+ 
+         }
+        
+         @media only screen and (min-width: 726px){
+             nav {
+             position: fixed;
+             top: 0px;
+             width: 97%;
+             background-color:gray;
+             overflow: auto;
+             padding-left: 100px;
+         }   
+         }
+ 
+ 
+         nav a{
+             color: white;
+             width: 7%;
+             text-align: center;
+             float: left;
+             padding: 5px;
+             text-decoration: none;
+             
+         } 
+ 
+         a:hover{
+             background-color: black;
+         }
+ 
+         img{
+             margin-top: 0px;
+             width: 100%;
+             height: 200%;
+             z-index: 3;
+         }
+         .new_img{
+             float: left;
+             width: 50%;
+             
+         }
+ 
+ 
